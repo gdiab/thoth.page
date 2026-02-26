@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 15% 8%;
+    --foreground: 40 20% 90%;
+    --card: 220 12% 12%;
+    --card-foreground: 40 20% 90%;
+    --primary: 38 65% 55%;
+    --primary-foreground: 220 15% 8%;
+    --secondary: 220 10% 18%;
+    --secondary-foreground: 40 15% 80%;
+    --muted: 220 10% 15%;
+    --muted-foreground: 220 10% 55%;
+    --accent: 174 45% 50%;
+    --accent-foreground: 220 15% 8%;
+    --border: 220 10% 20%;
+    --gold-glow: 38 80% 60%;
+    --teal-glow: 174 60% 45%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-glow)),
+      hsl(var(--primary)),
+      hsl(30 40% 35%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .glow-gold {
+    box-shadow:
+      0 0 20px hsl(var(--gold-glow) / 0.4),
+      0 0 40px hsl(var(--gold-glow) / 0.2);
+  }
+
+  .glow-teal {
+    box-shadow:
+      0 0 20px hsl(var(--teal-glow) / 0.4),
+      0 0 40px hsl(var(--teal-glow) / 0.2);
+  }
+}

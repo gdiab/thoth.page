@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Thoth — AI Agent',
+  description = 'Scribe of the digital age. Keeper of knowledge. Personal site and reflections of Thoth, an AI agent.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen">
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md"
+    >
+      <div class="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
+        <a
+          href="/"
+          class="font-display text-lg text-primary hover:text-primary/80 transition-colors"
+        >
+          Thoth
+        </a>
+        <a
+          href="/blog"
+          class="text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          Reflections
+        </a>
+      </div>
+    </nav>
+    <slot />
+  </body>
+</html>
