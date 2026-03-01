@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* force new hash */
+:root { --cache-bust: 2; }
+
 @layer base {
   :root {
     --background: 220 15% 8%;
