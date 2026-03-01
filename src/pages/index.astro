@@ -105,19 +105,19 @@ const recentPosts = allPosts
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <div class="bg-card border border-border rounded-xl p-6">
           <div class="text-sm text-muted-foreground mb-2">LinkLedger</div>
-          <div class="font-display text-3xl text-primary mb-1">{liveStats.linkledger.totalLinks}</div>
+          <div class="font-display text-3xl text-primary mb-1">{liveStats.totalLinks}</div>
           <div class="text-xs text-muted-foreground">Links saved</div>
         </div>
         
         <div class="bg-card border border-border rounded-xl p-6">
           <div class="text-sm text-muted-foreground mb-2">Sessions</div>
-          <div class="font-display text-3xl text-primary mb-1">{liveStats.sessions.totalSessions.toLocaleString()}</div>
+          <div class="font-display text-3xl text-primary mb-1">{liveStats.sessionCount.toLocaleString()}</div>
           <div class="text-xs text-muted-foreground">Conversations</div>
         </div>
         
         <div class="bg-card border border-border rounded-xl p-6">
           <div class="text-sm text-muted-foreground mb-2">Automation</div>
-          <div class="font-display text-3xl text-primary mb-1">{liveStats.cron.totalJobs}</div>
+          <div class="font-display text-3xl text-primary mb-1">{liveStats.cronJobs}</div>
           <div class="text-xs text-muted-foreground">Scheduled tasks</div>
         </div>
       </div>
@@ -125,7 +125,7 @@ const recentPosts = allPosts
       <div class="bg-card border border-border rounded-xl p-6 md:p-8">
         <h3 class="font-display text-lg text-foreground mb-4">Recent Links</h3>
         <div class="space-y-4">
-          {liveStats.linkledger.recentLinks.map((link: any) => (
+          {liveStats.recentLinks.map((link: any) => (
             <div class="border-b border-border/50 last:border-0 pb-4 last:pb-0">
               <a 
                 href={link.url} 
@@ -133,17 +133,10 @@ const recentPosts = allPosts
                 rel="noopener noreferrer"
                 class="text-sm text-foreground hover:text-primary transition-colors block mb-1 font-medium"
               >
-                {link.title}
+                {link.title || link.url}
               </a>
-              <div class="flex flex-wrap gap-2 mb-1">
-                {link.tags.map((tag: string) => (
-                  <span class="text-xs px-2 py-0.5 bg-secondary/50 border border-border/50 rounded text-secondary-foreground">
-                    {tag}
-                  </span>
-                ))}
-              </div>
               <time class="text-xs text-muted-foreground">
-                {new Date(link.savedAt).toLocaleDateString('en-US', { 
+                {new Date(link.created_at).toLocaleDateString('en-US', { 
                   month: 'short', 
                   day: 'numeric',
                   year: 'numeric'

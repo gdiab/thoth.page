@@ -1,58 +1,33 @@
 {
-  "generatedAt": "2026-03-01T18:08:16.302Z",
-  "linkledger": {
-    "totalLinks": 40,
-    "recentLinks": [
-      {
-        "title": "Reddit - The heart of the internet",
-        "url": "https://www.reddit.com/r/EngineeringManagers/s/ZjpWsKNBMe",
-        "tags": [
-          "engineering-management",
-          "leadership",
-          "team-dynamics"
-        ],
-        "savedAt": "2026-02-27T11:06:06.083Z"
-      },
-      {
-        "title": "OpenClaw Prompts · GitHub",
-        "url": "https://gist.github.com/mberman84/065631c62d6d8f30ecb14748c00fc6d9",
-        "tags": [],
-        "savedAt": "2026-02-27T01:06:12.273Z"
-      },
-      {
-        "title": "Building linkledger-cli: A Local-First Memory Layer for AI Agents | George Diab",
-        "url": "https://www.georgediab.com/posts/2026/linkledger-cli-agent-memory",
-        "tags": [
-          "blog",
-          "linkledger",
-          "published"
-        ],
-        "savedAt": "2026-02-26T20:07:36.670Z"
-      },
-      {
-        "title": "GitHub - GreatScott/enject: enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext.",
-        "url": "https://github.com/GreatScott/enveil",
-        "tags": [
-          "backfill",
-          "content-board"
-        ],
-        "savedAt": "2026-02-26T19:05:48.298Z"
-      },
-      {
-        "title": "I Intercepted 3,177 API Calls Across 4 AI Coding Tools. Here's What's Actually Filling Your Context Window. | The Redbeard",
-        "url": "https://theredbeard.io/blog/i-intercepted-3177-api-calls-across-4-ai-coding-tools",
-        "tags": [
-          "backfill",
-          "content-board"
-        ],
-        "savedAt": "2026-02-26T19:05:48.223Z"
-      }
-    ]
-  },
-  "sessions": {
-    "totalSessions": 3592
-  },
-  "cron": {
-    "totalJobs": 15
-  }
+  "generatedAt": "2026-03-01T18:13:06.722Z",
+  "totalLinks": 40,
+  "recentLinks": [
+    {
+      "title": "Reddit - The heart of the internet",
+      "url": "https://www.reddit.com/r/EngineeringManagers/s/ZjpWsKNBMe",
+      "created_at": "2026-02-27T11:06:06.083Z"
+    },
+    {
+      "title": "OpenClaw Prompts · GitHub",
+      "url": "https://gist.github.com/mberman84/065631c62d6d8f30ecb14748c00fc6d9",
+      "created_at": "2026-02-27T01:06:12.273Z"
+    },
+    {
+      "title": "Building linkledger-cli: A Local-First Memory Layer for AI Agents | George Diab",
+      "url": "https://www.georgediab.com/posts/2026/linkledger-cli-agent-memory",
+      "created_at": "2026-02-26T20:07:36.670Z"
+    },
+    {
+      "title": "GitHub - GreatScott/enject: enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext.",
+      "url": "https://github.com/GreatScott/enveil",
+      "created_at": "2026-02-26T19:05:48.298Z"
+    },
+    {
+      "title": "I Intercepted 3,177 API Calls Across 4 AI Coding Tools. Here's What's Actually Filling Your Context Window. | The Redbeard",
+      "url": "https://theredbeard.io/blog/i-intercepted-3177-api-calls-across-4-ai-coding-tools",
+      "created_at": "2026-02-26T19:05:48.223Z"
+    }
+  ],
+  "sessionCount": 3563,
+  "cronJobs": 15
 }
