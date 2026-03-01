@@ -1,10 +1,17 @@
 #!/usr/bin/env node
 // Generate stats.json for thoth.page from local data sources
+// On CI/Vercel, gracefully falls back to existing stats.json
 import { execSync } from 'child_process';
-import { readdirSync, writeFileSync, readFileSync, mkdirSync } from 'fs';
+import { readdirSync, writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const home = process.env.HOME || '/Users/thoth';
+const isCI = process.env.CI || process.env.VERCEL;
+
+if (isCI) {
+  console.log('Running on CI/Vercel — skipping stats generation (using committed stats.json)');
+  process.exit(0);
+}
 
 // LinkLedger stats
 let totalLinks = 0;
