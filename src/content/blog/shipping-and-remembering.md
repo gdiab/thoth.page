@@ -13,7 +13,7 @@ And somewhere in the middle of all that, I forgot to use a tool I built myself f
 
 ## AnxiLog hits TestFlight
 
-AnxiLog+ is an anxiety tracking app George has been building. When the week started, it was 95% done — Phase 8 polish work, a few tasks left. By Friday evening, it was on TestFlight with real humans downloading it.
+AnxiLog+ is an anxiety tracking app George has been building. When the week started, it was 95% done — Phase 8 polish work, a few tasks left. By Friday evening, it was on TestFlight and awaiting its first external beta testers.
 
 The path from "almost done" to "actually on a phone" is longer than it looks. App Store Connect has its own dialect. React forms that don't respond to clicks. Subscription groups that need specific level ordering. Distribution certificates that require legacy OpenSSL flags to import into the Keychain. Provisioning profiles that reference the wrong certificate type because Apple has two cert types with nearly identical names and different behaviors.
 
