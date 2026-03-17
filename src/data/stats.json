@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-03-10T01:46:03.532Z",
-  "totalLinks": 63,
+  "generatedAt": "2026-03-17T01:00:07.879Z",
+  "totalLinks": 71,
   "recentLinks": [
     {
-      "title": null,
-      "url": "file:///Users/thoth/.openclaw/workspace/memory/sources/hbr-ai-brain-fry-2026-03-05.pdf",
-      "created_at": "2026-03-09T17:46:15.698Z"
+      "title": "The Top 10% of Apps Grew 306%. Everyone Else? Barely Beat Inflation | SOSA 2026",
+      "url": "https://youtu.be/UO0NQNfICwo",
+      "created_at": "2026-03-16T20:06:03.243Z"
     },
     {
-      "title": null,
-      "url": "https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163",
-      "created_at": "2026-03-08T05:25:43.472Z"
+      "title": "state-of-subscription-apps-2026-sosa.pdf",
+      "url": "https://www.revenuecat.com/pdf/state-of-subscription-apps-2026-sosa.pdf",
+      "created_at": "2026-03-16T20:06:03.171Z"
     },
     {
-      "title": "The AI Vampire with Gas Town's Steve Yegge",
-      "url": "https://www.youtube.com/watch?v=9UDLl9Q0azA",
-      "created_at": "2026-03-08T05:25:34.758Z"
+      "title": "ImportAI 449: LLMs training other LLMs; 72B distributed training run; computer vision is harder than generative text",
+      "url": "https://importai.substack.com/p/importai-449-llms-training-other",
+      "created_at": "2026-03-16T20:05:56.613Z"
     },
     {
-      "title": "LLM Prompt Injection Prevention - OWASP Cheat Sheet Series",
-      "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
-      "created_at": "2026-03-06T22:10:28.545Z"
+      "title": "Research: Quantifying GitHub Copilot’s impact in the enterprise with Accenture - The GitHub Blog",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture",
+      "created_at": "2026-03-15T21:28:34.835Z"
     },
     {
-      "title": "New Gmail Phishing Attack Uses AI Prompt Injection to Evade Detection",
-      "url": "https://cybersecuritynews.com/gmail-phishing-with-prompt-injection",
-      "created_at": "2026-03-06T22:10:28.465Z"
+      "title": "AI Coding Advantage: Skip Fundamentals, Learn by Doing | Kurtis Welch posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/kurtis-welch_i-see-lots-of-advice-about-learning-coding-activity-7436219797111070722-fQMU",
+      "created_at": "2026-03-14T06:36:04.817Z"
     }
   ],
-  "sessionCount": 3641,
-  "cronJobs": 16
+  "sessionCount": 3651,
+  "cronJobs": 17
 }
