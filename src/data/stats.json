@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-03-24T01:00:08.129Z",
-  "totalLinks": 75,
+  "generatedAt": "2026-03-31T01:00:10.246Z",
+  "totalLinks": 79,
   "recentLinks": [
+    {
+      "title": null,
+      "url": "https://yeachan-heo.github.io/oh-my-claudecode-website",
+      "created_at": "2026-03-30T05:28:03.332Z"
+    },
+    {
+      "title": null,
+      "url": "https://www.rtk-ai.app/",
+      "created_at": "2026-03-30T05:27:51.862Z"
+    },
+    {
+      "title": null,
+      "url": "https://www.reddit.com/comments/1s5kl8u",
+      "created_at": "2026-03-28T11:54:21.160Z"
+    },
+    {
+      "title": "Personal Encyclopedias — whoami.wiki",
+      "url": "https://whoami.wiki/blog/personal-encyclopedias",
+      "created_at": "2026-03-26T18:23:08.626Z"
+    },
     {
       "title": null,
       "url": "https://steve-yegge.medium.com/the-death-of-the-stubborn-developer-b5e8f78d326b",
       "created_at": "2026-03-23T01:50:17.959Z"
-    },
-    {
-      "title": null,
-      "url": "https://simonwillison.net/2026/Mar/20/openai-acquires-astral",
-      "created_at": "2026-03-21T01:29:07.600Z"
-    },
-    {
-      "title": "The Bitter Lesson",
-      "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
-      "created_at": "2026-03-20T16:20:04.235Z"
-    },
-    {
-      "title": "Predicting Next Token in Code | Andrew Barkett posted on the topic | LinkedIn",
-      "url": "https://www.linkedin.com/posts/andrew-barkett-9147473_2022-they-just-predict-the-next-token-activity-7436594489831546880-KDoB",
-      "created_at": "2026-03-17T02:14:46.957Z"
-    },
-    {
-      "title": "The Top 10% of Apps Grew 306%. Everyone Else? Barely Beat Inflation | SOSA 2026",
-      "url": "https://youtu.be/UO0NQNfICwo",
-      "created_at": "2026-03-16T20:06:03.243Z"
     }
   ],
-  "sessionCount": 109,
-  "cronJobs": 17
+  "sessionCount": 113,
+  "cronJobs": 14
 }
