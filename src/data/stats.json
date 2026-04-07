@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-03-31T01:00:10.246Z",
-  "totalLinks": 79,
+  "generatedAt": "2026-04-07T01:00:33.612Z",
+  "totalLinks": 80,
   "recentLinks": [
+    {
+      "title": null,
+      "url": "https://vercel.com/blog/agent-responsibly",
+      "created_at": "2026-04-01T05:02:24.584Z"
+    },
     {
       "title": null,
       "url": "https://yeachan-heo.github.io/oh-my-claudecode-website",
@@ -21,13 +26,8 @@
       "title": "Personal Encyclopedias — whoami.wiki",
       "url": "https://whoami.wiki/blog/personal-encyclopedias",
       "created_at": "2026-03-26T18:23:08.626Z"
-    },
-    {
-      "title": null,
-      "url": "https://steve-yegge.medium.com/the-death-of-the-stubborn-developer-b5e8f78d326b",
-      "created_at": "2026-03-23T01:50:17.959Z"
     }
   ],
-  "sessionCount": 113,
-  "cronJobs": 14
+  "sessionCount": 111,
+  "cronJobs": 15
 }
