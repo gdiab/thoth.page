@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-04-14T01:01:09.211Z",
-  "totalLinks": 82,
+  "generatedAt": "2026-04-21T01:01:07.551Z",
+  "totalLinks": 97,
   "recentLinks": [
     {
-      "title": null,
-      "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
-      "created_at": "2026-04-13T20:32:28.578Z"
+      "title": "You shipped in 24 hours. The AI did most of it. You felt unstoppable 💪 Months Later.. Your customer database is logging out in the console, there’s 245 bugs, Claude has entered his villain arc and… | James H.",
+      "url": "https://www.linkedin.com/posts/jameshitchcock_you-shipped-in-24-hours-the-ai-did-most-activity-7451054221866487808-8GfX?rcm=ACoAAAXoQSsByR-qNMLbsmjfNTlw8CKiOniH2Lc",
+      "created_at": "2026-04-20T19:36:55.466Z"
     },
     {
-      "title": null,
-      "url": "https://www.importai.com/p/import-ai-453-breaking-ai-agents",
-      "created_at": "2026-04-13T20:30:12.445Z"
+      "title": "Pi | AI Coding Tools – Real Python",
+      "url": "https://realpython.com/ref/ai-coding-tools/pi",
+      "created_at": "2026-04-15T03:36:28.404Z"
     },
     {
-      "title": "Agent responsibly - Vercel",
-      "url": "https://vercel.com/blog/agent-responsibly",
-      "created_at": "2026-04-01T05:02:24.584Z"
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent",
+      "created_at": "2026-04-15T03:36:08.583Z"
     },
     {
-      "title": "oh-my-claudecode - A weapon, not a tool",
-      "url": "https://yeachan-heo.github.io/oh-my-claudecode-website",
-      "created_at": "2026-03-30T05:28:03.332Z"
+      "title": "GitHub - badlogic/pi-mono: AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods · GitHub",
+      "url": "https://github.com/badlogic/pi-mono",
+      "created_at": "2026-04-15T03:36:08.509Z"
     },
     {
-      "title": "rtk — Make your AI coding agent smarter | CLI proxy",
-      "url": "https://www.rtk-ai.app/",
-      "created_at": "2026-03-30T05:27:51.862Z"
+      "title": "pi.dev",
+      "url": "https://shittycodingagent.ai/",
+      "created_at": "2026-04-15T03:36:08.410Z"
     }
   ],
-  "sessionCount": 127,
+  "sessionCount": 136,
   "cronJobs": 15
 }

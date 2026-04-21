@@ -30,6 +30,7 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric',
+                      timeZone: 'UTC',
                     })}
                   </time>
                   <p class="text-muted-foreground leading-relaxed">{post.data.description}</p>
