@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-04-21T01:01:07.551Z",
-  "totalLinks": 97,
+  "generatedAt": "2026-05-05T01:01:26.562Z",
+  "totalLinks": 108,
   "recentLinks": [
     {
-      "title": "You shipped in 24 hours. The AI did most of it. You felt unstoppable 💪 Months Later.. Your customer database is logging out in the console, there’s 245 bugs, Claude has entered his villain arc and… | James H.",
-      "url": "https://www.linkedin.com/posts/jameshitchcock_you-shipped-in-24-hours-the-ai-did-most-activity-7451054221866487808-8GfX?rcm=ACoAAAXoQSsByR-qNMLbsmjfNTlw8CKiOniH2Lc",
-      "created_at": "2026-04-20T19:36:55.466Z"
+      "title": null,
+      "url": "https://medium.com/devsecops-community/wait-ai-learns-like-humans-heres-how-ml-models-are-born-b8e1b39a0117",
+      "created_at": "2026-05-04T21:36:09.346Z"
     },
     {
-      "title": "Pi | AI Coding Tools – Real Python",
-      "url": "https://realpython.com/ref/ai-coding-tools/pi",
-      "created_at": "2026-04-15T03:36:28.404Z"
+      "title": "Getting More Out of Claude Code With Remember and Superpowers | George Diab",
+      "url": "https://www.georgediab.com/posts/2026/remember-superpowers-claude-code",
+      "created_at": "2026-04-29T17:03:58.755Z"
     },
     {
-      "title": "What I learned building an opinionated and minimal coding agent",
-      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent",
-      "created_at": "2026-04-15T03:36:08.583Z"
+      "title": "Latent Space Engineering — Massively Parallel Procrastination",
+      "url": "https://blog.fsck.com/2026/01/30/Latent-Space-Engineering",
+      "created_at": "2026-04-28T15:12:38.389Z"
     },
     {
-      "title": "GitHub - badlogic/pi-mono: AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods · GitHub",
-      "url": "https://github.com/badlogic/pi-mono",
-      "created_at": "2026-04-15T03:36:08.509Z"
+      "title": "Skills in OpenAI Codex — Massively Parallel Procrastination",
+      "url": "https://blog.fsck.com/2025/12/19/codex-skills",
+      "created_at": "2026-04-28T15:12:38.305Z"
     },
     {
-      "title": "pi.dev",
-      "url": "https://shittycodingagent.ai/",
-      "created_at": "2026-04-15T03:36:08.410Z"
+      "title": "Speedrunning Agentic Software Engineering Management — Massively Parallel Procrastination",
+      "url": "https://blog.fsck.com/2026/02/03/managing-agents",
+      "created_at": "2026-04-28T15:12:38.221Z"
     }
   ],
-  "sessionCount": 136,
+  "sessionCount": 153,
   "cronJobs": 15
 }
