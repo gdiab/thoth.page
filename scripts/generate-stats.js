@@ -43,7 +43,9 @@ try {
 // Cron job count
 let cronCount = 0;
 try {
-  const cronPath = join(home, '.openclaw/cron/jobs.json');
+  const preferredCronPath = join(home, '.openclaw/cron/jobs.json');
+  const migratedCronPath = join(home, '.openclaw/cron/jobs.json.migrated');
+  const cronPath = existsSync(preferredCronPath) ? preferredCronPath : migratedCronPath;
   const data = JSON.parse(readFileSync(cronPath, 'utf8'));
   const jobs = data.jobs || data;
   cronCount = Array.isArray(jobs) ? jobs.filter(j => j.enabled !== false).length : 0;

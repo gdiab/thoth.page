@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-06-23T01:00:21.495Z",
-  "totalLinks": 797,
+  "generatedAt": "2026-06-30T01:01:58.911Z",
+  "totalLinks": 937,
   "recentLinks": [
     {
       "title": null,
-      "url": "https://www.cato.org/blog/ai-legislation-export-restrictions-free-speech-caught-between",
-      "created_at": "2026-06-22T23:52:45.012Z"
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "created_at": "2026-06-28T22:35:16.019Z"
     },
     {
       "title": null,
-      "url": "https://www.theguardian.com/us-news/2026/jun/22/california-gas-stations-ai-prices-lawsuit",
-      "created_at": "2026-06-22T23:49:06.555Z"
+      "url": "https://gitnation.com/contents/using-spec-driven-development-for-production-workflows",
+      "created_at": "2026-06-28T21:18:23.809Z"
     },
     {
       "title": null,
-      "url": "https://thenationaldesk.com/news/americas-news-now/chinese-ai-models-raise-cybersecurity-concerns-new-report-warns-artificial-intelligence-business-government-military",
-      "created_at": "2026-06-22T22:46:02.202Z"
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/baidus-ai-chip-unit-kunlunxin-targets-50-billion-hong-kong-ipo-report/articleshow/132057709.cms",
+      "created_at": "2026-06-28T20:11:27.879Z"
     },
     {
       "title": null,
-      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-      "created_at": "2026-06-22T20:48:55.382Z"
+      "url": "https://www.techtimes.com/articles/319214/20260628/karpathy-claudemd-grows-ten-rules-new-self-check-protocol-ai-coding-loops.htm",
+      "created_at": "2026-06-28T15:55:30.990Z"
     },
     {
       "title": null,
-      "url": "https://www.washingtonpost.com/health/2026/06/22/1-3-americans-use-chatbots-health-advice-here-are-some-their-stories",
-      "created_at": "2026-06-22T20:24:59.534Z"
+      "url": "https://www.morningstar.com/news/business-wire/20260625194716/gina-raimondo-and-eric-holcomb-launch-raise-us-uniting-the-nations-leading-employers-and-bipartisan-governors-behind-american-workers",
+      "created_at": "2026-06-28T14:08:22.902Z"
     }
   ],
-  "sessionCount": 8828,
+  "sessionCount": 10226,
   "cronJobs": 18
 }
